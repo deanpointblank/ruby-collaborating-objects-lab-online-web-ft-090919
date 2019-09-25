@@ -17,7 +17,7 @@ class Song
     name_artist = file.split(/( - |.mp3)/)
     binding.pry
     name_artist[0] = self.new(name_artist[0])
-    name_artist[0].artist = artist.new(name_artist[1])
+    name_artist[2].artist = artist.new(name_artist[2])
     # name_artist[0] = Artist.new(name_artist[0])
     # name_artist[1] = self.new(name_artist[1])
     song
