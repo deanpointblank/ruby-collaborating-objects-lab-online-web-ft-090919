@@ -16,7 +16,6 @@ class Song
     name_artist = file.split(/( - |.mp3)/)
     name_artist[0] = Artist.new(name_artist[0])
     name_artist[1] = self.new(name_artist[1])
-    
   end
   
 end
