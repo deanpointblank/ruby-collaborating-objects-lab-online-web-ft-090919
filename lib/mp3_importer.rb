@@ -19,6 +19,7 @@ class MP3Importer
   def import
     self.files.each do |file|
       Artist.find_or_create_by_name(file)
+    end
   end
   
 end
